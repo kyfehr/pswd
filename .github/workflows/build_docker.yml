@@ -6,8 +6,8 @@ on:
       - '*'
 
 jobs:
-  push-store-image:
-    runs-on: ubuntu-latest
+  build_docker-images:
+    runs-on: self-hosted
 
     steps:
       - name: 'Checkout GitHub Action'
